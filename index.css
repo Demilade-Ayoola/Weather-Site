@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('./cloudimage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'poppins', sans-serif;
+    height: 100vh;
+}
+.navbar{
+    min-height: 25vh;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+h2{
+    padding-top: 7px;
+    padding-left: 2px;
+}
+.span{
+    padding-top: 3px;
+    font-size: 2em;
+     color: black;
+}
+.logo{
+    text-align: left;
+    padding-left: 20px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.searchform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.p-hum{
+    text-align: left;
+    width: 56.78px;
+}
+.cityname{
+    font-size: 1rem;
+    padding-right: 10px;
+}
+.c-temp,.low,.high,.Humidity{
+display: flex;
+justify-content: space-between;
+border-bottom: 1px solid black;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.result{
+    align-items: center;
+justify-content: center;
+    display: flex;
+}
+.data-info{
+    min-height: 30vh;
+width: 305px;
+}
+.searchbar{
+    padding: 0.5rem;
+    border-radius: 15px 0px 0px 15px;
+    border: 0px solid black;
+font-size: 1.5rem;
+}
+.searchbutton{
+    cursor: pointer;
+    border-radius:0px 15px 15px 0px;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border: 0px solid black;
+    background-color: white;
+}
+button:hover{
+    background-color: lightblue;
+}
+
+@media screen and (max-width: 350px) {
+ .span{
+     font-size: 1rem;
+ }   
+ .logo h2{
+     font-size: 0.7rem;
+ }
+ .logo{
+     padding-left: 2px;
+ }
+
+ ::placeholder {
+ font-size: 0.8rem;
+  }
+.cityname{
+    font-size: 1rem;
+}
+ .data-info{
+     font-size: 0.7rem
+     !important;
+     width: 220px;
+ }   
+ .searchbar,
+ .searchbutton{
+     font-size: small;
+ padding: 0.3rem;
+    }
+.navbar{
+    min-height: 15vh;
+}
+.p-hum{
+    width: 43.2px;
+}
+
+}
